@@ -1,0 +1,161 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  #navbar {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 50px;
+    color: #080A45;
+    line-height: 50px;
+    gap: 40px;
+    padding: 0 25px;
+    flex-basis: 100%;
+  }
+  header {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: #080A45;
+    line-height: 50px;
+    gap: 10px;
+    padding: 0 25px;
+  }
+  .section1 {
+    text-align: center;
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 110px; 
+    height: 10px; 
+    line-height: 40px; 
+    margin-right: 20px;
+    margin: 0px 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  .features {
+    padding-top: 10px;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+#table {
+  margin: 0 auto;
+  border-spacing: 20px;
+}
+td, th {
+  padding: 20px;
+}
+.text {
+  color: #080A45;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-bottom: 5%;
+}
+
+.card {
+  background-color: #C9B8F9;
+  padding: 5%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  border-radius: 5px;
+  text-align: left;  
+}
+.card ul { 
+  padding: 0;
+  list-style-type: none;
+}
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#experience {
+  background-color: #f5f5f5; 
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
+
+.job-entry {
+  margin-bottom: 20px;
+}
+
+.job-entry h3 {
+  font-weight: bold; 
+  margin-bottom: 5px;
+}
+
+.company {
+  font-style: italic;
+}
+
+.date {
+  color: #666; 
+}  
+
+.job-entry ul {
+  padding-left: 20px; 
+}
+footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px 0; 
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 10 10px; 
+}
